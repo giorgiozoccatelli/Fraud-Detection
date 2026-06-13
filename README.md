@@ -7,7 +7,7 @@ This repository contains the project implementations developed for the course *0
 This advanced course explores geometric machine learning, graph neural networks (GNNs), and time-variant data analysis to detect anomalies in dynamic systems. It bridges non-Euclidean data representations (graphs, manifolds) with cutting-edge temporal architectures. Through real-world datasets, students gain practical expertise in building forecasting and anomaly detection pipelines for complex domains like finance and cybersecurity.
 
 Key learning outcomes:
-- **Geometric & Graph Learning:** Mathematical foundations, GCN, GAT, GIN, and Temporal GNNs.
+- **Geometric & Graph Learning:** Mathematical foundations, GCN, GAT, and Temporal GNNs.
 - **Time-Series Modeling:** Classical (ARIMA, VAR) and deep learning methods (RNNs, LSTMs, TCNs).
 - **Anomaly Detection:** Statistical tests, autoencoders, and hybrid models for temporal/graph data.
 
