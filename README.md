@@ -13,5 +13,5 @@ Key learning outcomes:
 
 ## 🗂️ Repository Structure
 
-- **📄 `creditFraud.ipynb`**: The core Jupyter Notebook containing the end-to-end analytical pipeline[cite: 1]. It covers exploratory data analysis, temporal feature engineering, and the training of supervised models (LogReg, LightGBM) versus label-free anomaly detectors (Isolation Forest, MixedAE, LSTM-AE, GRU-AE)[cite: 1]. 
-- **📊 `creditFraud.pdf`**: The presentation summarizing the research and findings[cite: 1]. It demonstrates how supervised models set a high ceiling in-distribution but fail under concept drift, while sequential autoencoders maintain robustness by learning a card-relative normality baseline[cite: 1].
+- **📄 `creditFraud.ipynb`**: The core Jupyter Notebook containing the end-to-end analytical pipeline. It covers exploratory data analysis, temporal feature engineering, and the training of supervised models (LogReg, LightGBM) versus label-free anomaly detectors (Isolation Forest, MixedAE, LSTM-AE, GRU-AE). 
+- **📊 `creditFraud.pdf`**: The presentation summarizing the research and findings. It demonstrates how supervised models set a high ceiling in-distribution but fail under concept drift, while sequential autoencoders maintain robustness by learning a card-relative normality baseline.
