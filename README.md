@@ -4,17 +4,14 @@ This repository contains the project implementations developed for the course *0
 
 ## 📚 Course Overview
 
-The course explores the convergence of geometric machine learning, graph neural networks (GNNs), and time-variant data analysis, focusing on anomaly detection in dynamic systems. It bridges the theoretical foundations of non-Euclidean data representation with cutting-edge architectures like temporal and heterogeneous GNNs. Students learn to implement classic and deep learning approaches for time-series forecasting and distance- or density-based anomaly detection. Through real-world datasets, the curriculum develops practical expertise in building robust pipelines for complex domains such as cybersecurity and finance.
+This advanced course explores geometric machine learning, graph neural networks (GNNs), and time-variant data analysis to detect anomalies in dynamic systems. It bridges non-Euclidean data representations (graphs, manifolds) with cutting-edge temporal architectures. Through real-world datasets, students gain practical expertise in building forecasting and anomaly detection pipelines for complex domains like finance and cybersecurity.
 
-Key learning outcomes include:
-- **Geometric & Graph Learning:** Mathematical foundations of manifolds and implementation of GCN, GAT, GIN, and Temporal GNNs.
-- **Time-Series Modeling:** Classical methods (ARIMA, VAR, Kalman Filters) alongside deep learning architectures (RNNs, LSTMs, TCNs).
-- **Anomaly Detection:** Statistical tests, autoencoders, and hybrid deep learning models specifically tailored for temporal and graph data.
-- **Practical Implementation:** Developing and evaluating end-to-end pipelines using PyTorch Geometric, scikit-learn, and TensorFlow with time-aware metrics (PR-AUC, ROC-AUC).
+Key learning outcomes:
+- **Geometric & Graph Learning:** Mathematical foundations, GCN, GAT, GIN, and Temporal GNNs.
+- **Time-Series Modeling:** Classical (ARIMA, VAR) and deep learning methods (RNNs, LSTMs, TCNs).
+- **Anomaly Detection:** Statistical tests, autoencoders, and hybrid models for temporal/graph data.
 
 ## 🗂️ Repository Structure
 
-This repository is dedicated to a comprehensive research project evaluating anomaly detection models against supervised baselines in the context of credit card fraud and concept drift:
-
-- **📄 `creditFraud.ipynb`**: The core Jupyter Notebook containing the full analytical pipeline. It details the Exploratory Data Analysis, custom feature engineering (including causal expanding windows and cyclic temporal features), and the training of supervised models (Logistic Regression, LightGBM) versus label-free models (Isolation Forest, MixedAE, LSTM-AE, GRU-AE). The notebook culminates in a Phase 3 concept drift simulation.
-- **📊 `creditFraud.pdf`**: The presentation summarizing the project's research question, methodology, and core findings. It highlights how supervised models (like LightGBM) set a high ceiling in-distribution but collapse under concept drift, whereas sequential autoencoders (LSTM-AE, GRU-AE) maintain robustness by learning a card-relative baseline of normality rather than a global one.
+- **📄 `creditFraud.ipynb`**: The core Jupyter Notebook containing the end-to-end analytical pipeline[cite: 1]. It covers exploratory data analysis, temporal feature engineering, and the training of supervised models (LogReg, LightGBM) versus label-free anomaly detectors (Isolation Forest, MixedAE, LSTM-AE, GRU-AE)[cite: 1]. 
+- **📊 `creditFraud.pdf`**: The presentation summarizing the research and findings[cite: 1]. It demonstrates how supervised models set a high ceiling in-distribution but fail under concept drift, while sequential autoencoders maintain robustness by learning a card-relative normality baseline[cite: 1].
